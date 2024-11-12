@@ -19,7 +19,7 @@
 # Build stage 1 `builder`:
 # Download and extract RocketMQ
 ################################################################################
-FROM eclipse-temurin:8-jdk-alpine AS builder
+FROM openjdk:8-jdk-alpine AS builder
 
 ARG version
 
