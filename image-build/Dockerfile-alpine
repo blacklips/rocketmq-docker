@@ -41,7 +41,7 @@ RUN unzip rocketmq.zip; \
 # Build stage 2:
 # Make the actual RocketMQ docker image
 ################################################################################
-FROM eclipse-temurin:8-jdk-alpine
+FROM openjdk:8-jdk-alpine
 
 ARG user=rocketmq
 ARG group=rocketmq
